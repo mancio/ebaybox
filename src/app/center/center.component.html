@@ -8,8 +8,8 @@
 </ul>
 <div class="box">
   <h3>Product list:</h3>
-  <ul>
-    {{list}}
+  <ul *ngFor="let item of list">
+    <li>{{list.name}}</li>
   </ul>
 
 </div>
