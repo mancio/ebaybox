@@ -6,3 +6,10 @@ ul{
   color: green;
   font-size: large;
 }
+
+.box{
+  background: aquamarine;
+  border-radius: 20px;
+  text-align: left;
+  padding-left: 10px;
+}

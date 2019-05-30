@@ -9,6 +9,7 @@ export class CenterComponent implements OnInit {
   kg: string;
   img: string;
   dim: number;
+  list: string;
 
   constructor() { }
 
