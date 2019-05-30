@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Item} from "./list.model";
+import {Item} from './list.model';
 
 @Component({
   selector: 'app-center',
@@ -10,7 +10,8 @@ export class CenterComponent implements OnInit {
   kg: string;
   img: string;
   dim: number;
-  list = Item[] = [
+
+  list = Item[Item.length] = [
     new Item('Arduino Raspberry PI Red Digital Voltmeter Volt Panel Meter 7 PCS DC 0V To 100V',
       '',
       'https://www.aliexpress.com/item/10pcs-lot-0-56-inch-Digital-red-LED-Display-Voltage-Voltmeter-tester-Panel-car-motorcycle-monitors/32792957481.html',
