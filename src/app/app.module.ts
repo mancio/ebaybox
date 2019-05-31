@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { CenterComponent } from './center/center.component';
+import { FrameComponent } from './frame/frame.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CenterComponent
+    CenterComponent,
+    FrameComponent
   ],
   imports: [
     BrowserModule,
