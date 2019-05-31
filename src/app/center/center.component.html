@@ -1,7 +1,7 @@
 <h1>MAGIC TOOL BOX</h1>
 <h2>Mistery package with more that {{kg}} kg of electronics and others useful tools</h2>
 <div><img src="{{img}}" width="{{dim}}" height="{{dim}}"></div>
-<ul>
+<ul class="feat">
   <li>every item is tested and full working</li>
   <li>some items still new never used</li>
   <li>very good price</li>
@@ -9,7 +9,7 @@
 <div class="box">
   <h3>Product list:</h3>
   <ul *ngFor="let item of list">
-    <li>{{item.name}} {{item.spec}} {{item.surl}}</li>
+    <li>{{item.name}} <span class="spec">{{item.spec}}</span> <br /> <span class="url">{{item.surl}}</span></li>
   </ul>
 
 </div>

@@ -2,14 +2,35 @@ h1,h2,div{
   text-align: center;
 }
 
-ul{
+h3{
+  padding: 10px;
+}
+
+.feat > li{
   color: green;
   font-size: large;
+
 }
 
 .box{
-  background: aquamarine;
+
+  background: aliceblue;
   border-radius: 20px;
   text-align: left;
   padding-left: 10px;
+  /*width: 50%;*/
 }
+
+li{
+  color: black;
+}
+
+.spec{
+  color: brown;
+}
+
+.url{
+  font-family: Consolas;
+  font-style: italic;
+}
+
