@@ -12,8 +12,8 @@ export class HeaderComponent implements OnInit {
   dim: number;
 
   ngOnInit() {
-    this.image = 'http://clipartmag.com/images/toolbox-cliparts-31.jpg';
-    this.dim = 150;
+    this.image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojTpeD5vU6kComWjL3pkmnDFI60xV0_b_PqEZhJZ8gjX44XPV';
+    this.dim = 200;
   }
 
 }

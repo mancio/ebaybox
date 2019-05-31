@@ -13,9 +13,9 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.image = 'https://www.harveynorman.com.au/blog/assets/Shopping-Online-Part-4-1000x747.jpg';
-    this.image2 = 'http://clipart-library.com/image_gallery/170138.jpg';
-    this.dim = 150;
+    this.image = 'https://static.boredpanda.com/blog/wp-content/uploads/2016/09/funny-lego-jokes-102-57dbf8b4ca884__605.jpg';
+    this.image2 = 'https://i.pinimg.com/474x/58/ac/80/58ac80c4e7c9423f0cfd0f3f79145697--information-technology-humor-internet-jokes.jpg';
+    this.dim = 300;
   }
 
 }
