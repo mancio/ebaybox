@@ -1,3 +1,6 @@
-<p>
-  frame works!
-</p>
+<mat-grid-list cols="4" rowHeight="1:1">
+
+  <mat-grid-tile class='pics' *ngFor='let in of counter(pics); let i = index'><img src='{{basicurl}}{{i+1}}.jpg'/></mat-grid-tile>
+</mat-grid-list>
+
+

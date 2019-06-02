@@ -1,11 +1,15 @@
 .left > ::ng-deep figure {
   justify-content: flex-start !important;
   padding-left: 20px;
+  /*padding-bottom: 30px;
+  padding-top: 30px;*/
 }
 
 .right > ::ng-deep figure {
   justify-content: flex-end !important;
   padding-right: 20px;
+  /*padding-bottom: 30px;
+  padding-top: 30px;*/
 }
 
 .title{

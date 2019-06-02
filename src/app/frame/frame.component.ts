@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Image} from './img.model';
 
 
 @Component({
@@ -9,18 +8,18 @@ import {Image} from './img.model';
 })
 export class FrameComponent implements OnInit {
 
-  basicurl: 'https://mancioboxblog.altervista.org/ebay/box/mini/';
-
-  images = Image[Image.length] = [
-    new Image(this.basicurl + '1.jpeg','l')
-
-  ];
-
-
+  basicurl: string;
+  pics: number;
 
   constructor() { }
 
   ngOnInit() {
+    this.basicurl = 'https://mancioboxblog.altervista.org/ebay/box/mini/';
+    this.pics = 27;
+  }
+
+  counter(i: number) {
+    return new Array(i);
   }
 
 }

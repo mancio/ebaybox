@@ -1,0 +1,14 @@
+.pics > ::ng-deep figure > img{
+  max-width:70%;
+  height: auto;
+
+
+}
+
+::ng-deep .mat-figure{
+
+  background: aquamarine;
+  border-radius: 20px;
+
+}
+
