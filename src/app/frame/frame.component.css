@@ -1,14 +1,16 @@
 .pics > ::ng-deep figure > img{
-  max-width:70%;
-  height: auto;
+  max-width:85%;
+
 
 
 }
 
 ::ng-deep .mat-figure{
 
-  background: aquamarine;
+  background: burlywood;
   border-radius: 20px;
 
 }
+
+
 
