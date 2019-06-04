@@ -17,7 +17,7 @@ export class FrameComponent implements OnInit {
 
   ngOnInit() {
     this.basicurl = 'https://mancioboxblog.altervista.org/ebay/box/mini/';
-    this.pics = 27;
+    this.pics = 28;
 }
 
   counter(i: number) {
