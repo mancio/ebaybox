@@ -124,6 +124,10 @@ export class CenterComponent implements OnInit {
       '',
       'https://www.aliexpress.com/item/Slim-HDMI-Cable-Gold-Plated-Connection-1080P-with-FREE-SHIPPING-0-5m-1m-1-5m-1/32467185952.html',
       'https://bit.ly/2VYtqQc'),
+    new Item('and more...',
+      'is a surprise :)',
+      '',
+      '')
   ];
 
 

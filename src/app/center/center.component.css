@@ -14,10 +14,11 @@ h3{
 
 .box{
 
-  background: #89b4f9;
+  background: #8fd2f9;
   border-radius: 20px;
   text-align: left;
   padding-left: 10px;
+  padding-bottom: 10px;
   /*width: 50%;*/
 }
 

@@ -1,8 +1,5 @@
 .pics > ::ng-deep figure > img{
   max-width:85%;
-
-
-
 }
 
 ::ng-deep .mat-figure{
