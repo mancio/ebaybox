@@ -1,6 +1,6 @@
 <mat-grid-list cols="4" rowHeight="1:1">
-
-  <mat-grid-tile class='pics' *ngFor='let in of counter(pics); let i = index'><img src='{{basicurl}}{{i+1}}.jpg?kjhbvk9'/></mat-grid-tile>
+  //.jpg?picture_version always randomly change to force browser update
+  <mat-grid-tile class='pics' *ngFor='let in of counter(pics); let i = index'><img src='{{basicurl}}{{i+1}}.jpg?{{radomize(32,7647876576587658)}}'/></mat-grid-tile>
 </mat-grid-list>
 
 
